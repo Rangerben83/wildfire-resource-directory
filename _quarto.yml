@@ -5,23 +5,210 @@ project:
 website:
   title: "Wildfire Modeling & Simulation Resource Directory"
   description: "Comprehensive guide to wildfire behavior modeling and simulation"
+  favicon: assets/images/favicon.png
   
   navbar:
-    background: primary
+    background: "#d32f2f"
+    foreground: white
     search: true
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Getting Started"
+        menu:
+          - text: "Welcome & Purpose"
+            file: content/01-orientation/welcome.qmd
+          - text: "Quick Reference"
+            file: content/01-orientation/quick-reference.qmd
+          - text: "Glossary"
+            file: content/01-orientation/glossary.qmd
       - text: "Models"
-        file: content/03-models/index.qmd
+        menu:
+          - text: "Overview"
+            file: content/03-models/index.qmd
+          - text: "---"
+          - text: "Empirical Models"
+            file: content/03-models/empirical/index.qmd
+          - text: "Landscape Spread"
+            file: content/03-models/landscape/index.qmd
+          - text: "Coupled Atmosphere-Fire"
+            file: content/03-models/coupled/index.qmd
+          - text: "WUI & CFD"
+            file: content/03-models/wui-cfd/index.qmd
+          - text: "ML & AI Approaches"
+            file: content/03-models/ml-ai/index.qmd
+      - text: "Applications"
+        menu:
+          - text: "Public Agencies"
+            file: content/06-agencies/index.qmd
+          - text: "Utilities"
+            file: content/07-utilities/index.qmd
+          - text: "Insurance"
+            file: content/08-insurance/index.qmd
+          - text: "Commercial Sectors"
+            file: content/09-commercial/index.qmd
     right:
       - icon: github
-        href: https://github.com/REPLACE_USERNAME/wildfire-resource-directory
+        href: https://github.com/YOUR_USERNAME/wildfire-resource-directory
+        aria-label: GitHub
+        
+  sidebar:
+    style: "docked"
+    background: light
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "I. Orientation & Navigation"
+        contents:
+          - content/01-orientation/index.qmd
+          - content/01-orientation/welcome.qmd
+          - content/01-orientation/quick-reference.qmd
+          - content/01-orientation/glossary.qmd
+          
+      - section: "II. Fire Behavior Fundamentals"
+        contents:
+          - content/02-fundamentals/index.qmd
+          - content/02-fundamentals/fire-triangle.qmd
+          - content/02-fundamentals/wui-dynamics.qmd
+          - content/02-fundamentals/scales.qmd
+          
+      - section: "III. Model Families & Methods"
+        contents:
+          - content/03-models/index.qmd
+          - section: "Empirical Models"
+            contents:
+              - content/03-models/empirical/index.qmd
+              - content/03-models/empirical/rothermel.qmd
+              - content/03-models/empirical/fbfm.qmd
+          - section: "Landscape Spread"
+            contents:
+              - content/03-models/landscape/index.qmd
+              - content/03-models/landscape/farsite.qmd
+              - content/03-models/landscape/burn-probability.qmd
+              - content/03-models/landscape/iftdss.qmd
+          - section: "Coupled Atmosphere-Fire"
+            contents:
+              - content/03-models/coupled/index.qmd
+              - content/03-models/coupled/wrf-fire.qmd
+          - section: "WUI & CFD"
+            contents:
+              - content/03-models/wui-cfd/index.qmd
+              - content/03-models/wui-cfd/fds-wfds.qmd
+          - section: "ML & AI"
+            contents:
+              - content/03-models/ml-ai/index.qmd
+              - content/03-models/ml-ai/surrogates.qmd
+              - content/03-models/ml-ai/risk-scores.qmd
+              
+      - section: "IV. Data, Inputs & Optimization"
+        contents:
+          - content/04-data/index.qmd
+          - content/04-data/input-hierarchy.qmd
+          - section: "Fuels"
+            contents:
+              - content/04-data/fuels/index.qmd
+              - content/04-data/fuels/sources.qmd
+              - content/04-data/fuels/moisture.qmd
+          - section: "Weather & Climate"
+            contents:
+              - content/04-data/weather/index.qmd
+              - content/04-data/weather/sources.qmd
+              - content/04-data/weather/scenarios.qmd
+          - section: "Topography & WUI"
+            contents:
+              - content/04-data/topography/index.qmd
+              - content/04-data/topography/dem.qmd
+              - content/04-data/topography/wui-parcels.qmd
+          - content/04-data/validation/index.qmd
+          - content/04-data/realtime/index.qmd
+          
+      - section: "V. Validation & Uncertainty"
+        contents:
+          - content/05-validation/index.qmd
+          - content/05-validation/vvuq.qmd
+          - content/05-validation/comparisons.qmd
+          
+      - section: "VI. Public Agencies"
+        contents:
+          - content/06-agencies/index.qmd
+          - content/06-agencies/planning.qmd
+          - content/06-agencies/operations.qmd
+          - content/06-agencies/recovery.qmd
+          
+      - section: "VII. Utilities & Infrastructure"
+        contents:
+          - content/07-utilities/index.qmd
+          - section: "Electric Utilities"
+            contents:
+              - content/07-utilities/electric/index.qmd
+              - content/07-utilities/electric/ignition-risk.qmd
+              - content/07-utilities/electric/psps.qmd
+              - content/07-utilities/electric/digital-twins.qmd
+          - section: "Water Utilities"
+            contents:
+              - content/07-utilities/water/index.qmd
+              - content/07-utilities/water/impacts.qmd
+              - content/07-utilities/water/watershed.qmd
+          - content/07-utilities/coordination.qmd
+          
+      - section: "VIII. Insurance & Reinsurance"
+        contents:
+          - content/08-insurance/index.qmd
+          - content/08-insurance/catastrophe/index.qmd
+          - content/08-insurance/risk-scoring/index.qmd
+          - content/08-insurance/mitigation/index.qmd
+          - content/08-insurance/innovation.qmd
+          
+      - section: "IX. Commercial Sectors"
+        contents:
+          - content/09-commercial/index.qmd
+          - content/09-commercial/timber.qmd
+          - content/09-commercial/real-estate.qmd
+          - content/09-commercial/industrial.qmd
+          
+      - section: "X. Operational Workflows"
+        contents:
+          - content/10-workflows/index.qmd
+          - content/10-workflows/pipelines.qmd
+          - content/10-workflows/data-architecture.qmd
+          - content/10-workflows/surrogates.qmd
+          - content/10-workflows/digital-twins.qmd
+          
+      - section: "XI. Governance & Standards"
+        contents:
+          - content/11-governance/index.qmd
+          - content/11-governance/codes-standards.qmd
+          - content/11-governance/model-governance.qmd
+          - content/11-governance/equity.qmd
+          
+      - section: "XII. Resources & Case Studies"
+        contents:
+          - content/12-resources/index.qmd
+          - content/12-resources/case-studies/co-wy.qmd
+          - content/12-resources/case-studies/wui.qmd
+          - content/12-resources/organizations.qmd
+          - content/12-resources/literature.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: [cosmo, styles/custom.scss]
+    css: styles/custom.css
     toc: true
     toc-depth: 3
+    toc-title: "On This Page"
+    number-sections: true
+    number-depth: 2
+    code-fold: false
+    code-tools: false
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
     
 bibliography: references.bib
+csl: styles/apa.csl
+
+execute:
+  freeze: auto
