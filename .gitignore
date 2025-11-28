@@ -1,0 +1,30 @@
+# Quarto
+/.quarto/
+/_site/
+/_book/
+/.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+secrets.yaml
+.secrets/
+
+# Build artifacts
+*.log
+node_modules/

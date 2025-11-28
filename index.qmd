@@ -1,0 +1,11 @@
+---
+title: "Wildfire Modeling & Simulation Resource Directory"
+---
+
+## Welcome
+
+This directory provides a comprehensive guide to wildfire behavior modeling and simulation.
+
+## Quick Start
+
+Navigate using the menu above or search for specific topics.

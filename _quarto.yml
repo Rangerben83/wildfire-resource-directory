@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Wildfire Modeling & Simulation Resource Directory"
+  description: "Comprehensive guide to wildfire behavior modeling and simulation"
+  
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Models"
+        file: content/03-models/index.qmd
+    right:
+      - icon: github
+        href: https://github.com/REPLACE_USERNAME/wildfire-resource-directory
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    
+bibliography: references.bib
