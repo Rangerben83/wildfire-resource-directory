@@ -58,21 +58,21 @@ website:
     search: true
     collapse-level: 2
     contents:
-      - section: "I. Orientation & Navigation"
+      - section: "1. Orientation & Navigation"
         contents:
           - content/01-orientation/index.qmd
           - content/01-orientation/welcome.qmd
           - content/01-orientation/quick-reference.qmd
           - content/01-orientation/glossary.qmd
           
-      - section: "II. Fire Behavior Fundamentals"
+      - section: "2. Fire Behavior Fundamentals"
         contents:
           - content/02-fundamentals/index.qmd
           - content/02-fundamentals/fire-triangle.qmd
           - content/02-fundamentals/wui-dynamics.qmd
           - content/02-fundamentals/scales.qmd
           
-      - section: "III. Model Families & Methods"
+      - section: "3. Model Families & Methods"
         contents:
           - content/03-models/index.qmd
           - section: "Empirical Models"
@@ -100,7 +100,7 @@ website:
               - content/03-models/ml-ai/surrogates.qmd
               - content/03-models/ml-ai/risk-scores.qmd
               
-      - section: "IV. Data, Inputs & Optimization"
+      - section: "4. Data, Inputs & Optimization"
         contents:
           - content/04-data/index.qmd
           - content/04-data/input-hierarchy.qmd
@@ -122,20 +122,20 @@ website:
           - content/04-data/validation/index.qmd
           - content/04-data/realtime/index.qmd
           
-      - section: "V. Validation & Uncertainty"
+      - section: "5. Validation & Uncertainty"
         contents:
           - content/05-validation/index.qmd
           - content/05-validation/vvuq.qmd
           - content/05-validation/comparisons.qmd
           
-      - section: "VI. Public Agencies"
+      - section: "6. Public Agencies"
         contents:
           - content/06-agencies/index.qmd
           - content/06-agencies/planning.qmd
           - content/06-agencies/operations.qmd
           - content/06-agencies/recovery.qmd
           
-      - section: "VII. Utilities & Infrastructure"
+      - section: "7. Utilities & Infrastructure"
         contents:
           - content/07-utilities/index.qmd
           - section: "Electric Utilities"
@@ -151,7 +151,7 @@ website:
               - content/07-utilities/water/watershed.qmd
           - content/07-utilities/coordination.qmd
           
-      - section: "VIII. Insurance & Reinsurance"
+      - section: "8. Insurance & Reinsurance"
         contents:
           - content/08-insurance/index.qmd
           - content/08-insurance/catastrophe/index.qmd
@@ -159,14 +159,14 @@ website:
           - content/08-insurance/mitigation/index.qmd
           - content/08-insurance/innovation.qmd
           
-      - section: "IX. Commercial Sectors"
+      - section: "9. Commercial Sectors"
         contents:
           - content/09-commercial/index.qmd
           - content/09-commercial/timber.qmd
           - content/09-commercial/real-estate.qmd
           - content/09-commercial/industrial.qmd
           
-      - section: "X. Operational Workflows"
+      - section: "10. Operational Workflows"
         contents:
           - content/10-workflows/index.qmd
           - content/10-workflows/pipelines.qmd
@@ -174,14 +174,14 @@ website:
           - content/10-workflows/surrogates.qmd
           - content/10-workflows/digital-twins.qmd
           
-      - section: "XI. Governance & Standards"
+      - section: "11. Governance & Standards"
         contents:
           - content/11-governance/index.qmd
           - content/11-governance/codes-standards.qmd
           - content/11-governance/model-governance.qmd
           - content/11-governance/equity.qmd
           
-      - section: "XII. Resources & Case Studies"
+      - section: "12. Resources & Case Studies"
         contents:
           - content/12-resources/index.qmd
           - content/12-resources/case-studies/co-wy.qmd
@@ -191,8 +191,7 @@ website:
 
 format:
   html:
-    theme:
-      light: [cosmo, styles/custom.scss]
+    theme: cosmo
     css: styles/custom.css
     toc: true
     toc-depth: 3
@@ -208,7 +207,6 @@ format:
     smooth-scroll: true
     
 bibliography: references.bib
-csl: styles/apa.csl
 
 execute:
   freeze: auto
