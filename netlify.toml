@@ -1,9 +1,7 @@
 [build]
-  command = "quarto render"
+  command = """
+    curl -LO https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.549/quarto-1.4.549-linux-amd64.deb
+    sudo dpkg -i quarto-1.4.549-linux-amd64.deb
+    quarto render
+  """
   publish = "_site"
-
-[build.environment]
-  QUARTO_VERSION = "1.4.549"
-
-[[plugins]]
-  package = "netlify-plugin-quarto"
