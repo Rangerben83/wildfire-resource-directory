@@ -6,3 +6,4 @@ Comprehensive wildfire modeling and simulation guide.
 ```bash
 quarto preview
 ```
+
