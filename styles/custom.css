@@ -1,0 +1,114 @@
+/* Wildfire Resource Directory - Custom Styles */
+
+:root {
+  --fire-orange: #ff6b35;
+  --fire-red: #d32f2f;
+  --smoke-gray: #546e7a;
+  --forest-green: #2e7d32;
+  --sky-blue: #1976d2;
+}
+
+/* Hero banner on homepage */
+.hero-banner {
+  background: linear-gradient(135deg, var(--fire-red) 0%, var(--fire-orange) 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero-banner h2 {
+  color: white;
+  margin-top: 0;
+}
+
+/* Custom callouts */
+.callout-fire {
+  border-left-color: var(--fire-orange) !important;
+}
+
+.callout-wildfire {
+  border-left-color: var(--fire-red) !important;
+  background-color: #ffebee;
+}
+
+/* Navigation enhancements */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Grid cards */
+.grid .g-col-12 {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--fire-red);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.grid .g-col-12:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.grid .g-col-12 h3 {
+  color: var(--fire-red);
+  margin-top: 0;
+}
+
+/* Section headers */
+h1, h2 {
+  color: var(--fire-red);
+}
+
+h3 {
+  color: var(--smoke-gray);
+}
+
+/* Links */
+a {
+  color: var(--sky-blue);
+}
+
+a:hover {
+  color: var(--fire-orange);
+}
+
+/* Table of contents */
+.toc-actions a {
+  color: var(--smoke-gray);
+}
+
+/* Code blocks */
+pre {
+  border-left: 3px solid var(--fire-orange);
+}
+
+/* Sidebar - Bold main section headings */
+.sidebar nav > .sidebar-item > .sidebar-item-container .sidebar-item-text,
+.sidebar nav > ul > .sidebar-item > .sidebar-item-container .sidebar-item-text {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+/* Keep subsections normal weight */
+.sidebar .sidebar-section .sidebar-item .sidebar-item-text {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+/* Sidebar item styling */
+.sidebar-navigation .sidebar-item {
+  border-left: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.sidebar-navigation .sidebar-item:hover {
+  border-left-color: var(--fire-orange);
+}
+
+.sidebar-navigation .active {
+  border-left-color: var(--fire-red);
+  background-color: rgba(211, 47, 47, 0.05);
+}
