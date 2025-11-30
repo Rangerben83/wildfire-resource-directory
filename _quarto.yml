@@ -58,21 +58,21 @@ website:
     search: true
     collapse-level: 2
     contents:
-      - section: "1. Orientation & Navigation"
+      - section: "Part 1"
         contents:
           - content/01-orientation/index.md
           - content/01-orientation/welcome.md
           - content/01-orientation/quick-reference.md
           - content/01-orientation/glossary.md
           
-      - section: "2. Fire Behavior Fundamentals"
+      - section: "Part 2"
         contents:
           - content/02-fundamentals/index.md
           - content/02-fundamentals/fire-triangle.md
           - content/02-fundamentals/wui-dynamics.md
           - content/02-fundamentals/scales.md
           
-      - section: "3. Model Families & Methods"
+      - section: "Part 3"
         contents:
           - content/03-models/index.md
           - section: "Empirical Models"
@@ -100,7 +100,7 @@ website:
               - content/03-models/ml-ai/surrogates.md
               - content/03-models/ml-ai/risk-scores.md
               
-      - section: "4. Data, Inputs & Optimization"
+      - section: "Part 4"
         contents:
           - content/04-data/index.md
           - content/04-data/input-hierarchy.md
@@ -122,20 +122,20 @@ website:
           - content/04-data/validation/index.md
           - content/04-data/realtime/index.md
           
-      - section: "5. Validation & Uncertainty"
+      - section: "Part 5"
         contents:
           - content/05-validation/index.md
           - content/05-validation/vvuq.md
           - content/05-validation/comparisons.md
           
-      - section: "6. Public Agencies"
+      - section: "Part 6"
         contents:
           - content/06-agencies/index.md
           - content/06-agencies/planning.md
           - content/06-agencies/operations.md
           - content/06-agencies/recovery.md
           
-      - section: "7. Utilities & Infrastructure"
+      - section: "Part 7"
         contents:
           - content/07-utilities/index.md
           - section: "Electric Utilities"
@@ -151,7 +151,7 @@ website:
               - content/07-utilities/water/watershed.md
           - content/07-utilities/coordination.md
           
-      - section: "8. Insurance & Reinsurance"
+      - section: "Part 8"
         contents:
           - content/08-insurance/index.md
           - content/08-insurance/catastrophe/index.md
@@ -159,14 +159,14 @@ website:
           - content/08-insurance/mitigation/index.md
           - content/08-insurance/innovation.md
           
-      - section: "9. Commercial Sectors"
+      - section: "Part 9"
         contents:
           - content/09-commercial/index.md
           - content/09-commercial/timber.md
           - content/09-commercial/real-estate.md
           - content/09-commercial/industrial.md
           
-      - section: "10. Operational Workflows"
+      - section: "Part 10"
         contents:
           - content/10-workflows/index.md
           - content/10-workflows/pipelines.md
@@ -174,14 +174,14 @@ website:
           - content/10-workflows/surrogates.md
           - content/10-workflows/digital-twins.md
           
-      - section: "11. Governance & Standards"
+      - section: "Part 11"
         contents:
           - content/11-governance/index.md
           - content/11-governance/codes-standards.md
           - content/11-governance/model-governance.md
           - content/11-governance/equity.md
           
-      - section: "12. Resources & Case Studies"
+      - section: "Part 12"
         contents:
           - content/12-resources/index.md
           - content/12-resources/case-studies/co-wy.md
