@@ -9,7 +9,6 @@ categories: [fundamentals, fire-behavior, fuels, weather, topography]
 
 Wildfire behavior is governed by the interaction of three primary factors, commonly known as the **fire behavior triangle**: fuels, weather, and topography. Understanding how these factors interact is essential for predicting fire spread, intensity, and ultimately for making effective management decisions.
 
-THIS IS A CALLOUT >>
 ::: {.callout-important}
 ## The Fire Behavior Triangle
 The three essential factors that determine fire behavior:
