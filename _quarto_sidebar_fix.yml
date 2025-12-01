@@ -1,0 +1,114 @@
+  sidebar:
+    style: "docked"
+    background: light
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "Part 1: Orientation & Navigation"
+        contents:
+          - content/01-orientation/welcome.md
+          - content/01-orientation/quick-reference.md
+          - content/01-orientation/glossary.md
+          
+      - section: "Part 2: Fire Behavior Fundamentals"
+        contents:
+          - content/02-fundamentals/fire-triangle.md
+          - content/02-fundamentals/wui-dynamics.md
+          - content/02-fundamentals/scales.md
+          
+      - section: "Part 3: Model Families & Methods"
+        contents:
+          - section: "Empirical Models"
+            contents:
+              - content/03-models/empirical/rothermel.md
+              - content/03-models/empirical/fbfm.md
+          - section: "Landscape Spread"
+            contents:
+              - content/03-models/landscape/farsite.md
+              - content/03-models/landscape/burn-probability.md
+              - content/03-models/landscape/iftdss.md
+          - section: "Coupled Atmosphere-Fire"
+            contents:
+              - content/03-models/coupled/wrf-fire.md
+          - section: "WUI & CFD"
+            contents:
+              - content/03-models/wui-cfd/fds-wfds.md
+          - section: "ML & AI"
+            contents:
+              - content/03-models/ml-ai/surrogates.md
+              - content/03-models/ml-ai/risk-scores.md
+              
+      - section: "Part 4: Data, Inputs & Optimization"
+        contents:
+          - content/04-data/input-hierarchy.md
+          - section: "Fuels"
+            contents:
+              - content/04-data/fuels/sources.md
+              - content/04-data/fuels/moisture.md
+          - section: "Weather & Climate"
+            contents:
+              - content/04-data/weather/sources.md
+              - content/04-data/weather/scenarios.md
+          - section: "Topography & WUI"
+            contents:
+              - content/04-data/topography/dem.md
+              - content/04-data/topography/wui-parcels.md
+          - content/04-data/validation/index.md
+          - content/04-data/realtime/index.md
+          
+      - section: "Part 5: Validation & Uncertainty"
+        contents:
+          - content/05-validation/vvuq.md
+          - content/05-validation/comparisons.md
+          
+      - section: "Part 6: Public Agencies"
+        contents:
+          - content/06-agencies/planning.md
+          - content/06-agencies/operations.md
+          - content/06-agencies/recovery.md
+          
+      - section: "Part 7: Utilities & Infrastructure"
+        contents:
+          - section: "Electric Utilities"
+            contents:
+              - content/07-utilities/electric/ignition-risk.md
+              - content/07-utilities/electric/psps.md
+              - content/07-utilities/electric/digital-twins.md
+          - section: "Water Utilities"
+            contents:
+              - content/07-utilities/water/impacts.md
+              - content/07-utilities/water/watershed.md
+          - content/07-utilities/coordination.md
+          
+      - section: "Part 8: Insurance & Reinsurance"
+        contents:
+          - content/08-insurance/catastrophe/index.md
+          - content/08-insurance/risk-scoring/index.md
+          - content/08-insurance/mitigation/index.md
+          - content/08-insurance/innovation.md
+          
+      - section: "Part 9: Commercial Sectors"
+        contents:
+          - content/09-commercial/timber.md
+          - content/09-commercial/real-estate.md
+          - content/09-commercial/industrial.md
+          
+      - section: "Part 10: Operational Workflows"
+        contents:
+          - content/10-workflows/pipelines.md
+          - content/10-workflows/data-architecture.md
+          - content/10-workflows/surrogates.md
+          - content/10-workflows/digital-twins.md
+          
+      - section: "Part 11: Governance & Standards"
+        contents:
+          - content/11-governance/codes-standards.md
+          - content/11-governance/model-governance.md
+          - content/11-governance/equity.md
+          
+      - section: "Part 12: Resources & Case Studies"
+        contents:
+          - content/12-resources/case-studies/co-wy.md
+          - content/12-resources/case-studies/wui.md
+          - content/12-resources/organizations.md
+          - content/12-resources/literature.md

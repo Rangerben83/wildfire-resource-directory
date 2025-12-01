@@ -1,20 +1,20 @@
 ---
-title: Wildfire Fundamentals & the Fire Behavior Triangle
-description: "Understanding the three essential factors that determine wildfire behavior: fuels, weather, and topography"
-part: "2"
-section: "4"
-date: 2024-11-30
-date-modified: last-modified
-categories:
-  - fire-behavior
+title: "Wildfire Fundamentals and the Fire Behavior Triangle"
+description: "Understanding the core drivers of wildfire behavior: fuels, weather, and topography"
+part: 2
+section: 4
+categories: 
   - fundamentals
+  - fire-behavior
 tags:
   - wildfire-modeling
   - fire-behavior-triangle
   - fuels
   - weather
-  - wui
   - topography
+  - wui
+date: 2024-11-30
+date-modified: 2024-11-30
 bibliography: references.bib
 ---
 

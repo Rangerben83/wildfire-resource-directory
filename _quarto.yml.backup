@@ -1,0 +1,212 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Wildfire Modeling & Simulation Resource Directory"
+  description: "Comprehensive guide to wildfire behavior modeling and simulation"
+  favicon: assets/images/favicon.png
+  
+  navbar:
+    background: "#d32f2f"
+    foreground: white
+    search: true
+    left:
+      - text: "Home"
+        file: index.md
+      - text: "Getting Started"
+        menu:
+          - text: "Welcome & Purpose"
+            file: content/01-orientation/welcome.md
+          - text: "Quick Reference"
+            file: content/01-orientation/quick-reference.md
+          - text: "Glossary"
+            file: content/01-orientation/glossary.md
+      - text: "Models"
+        menu:
+          - text: "Overview"
+            file: content/03-models/index.md
+          - text: "---"
+          - text: "Empirical Models"
+            file: content/03-models/empirical/index.md
+          - text: "Landscape Spread"
+            file: content/03-models/landscape/index.md
+          - text: "Coupled Atmosphere-Fire"
+            file: content/03-models/coupled/index.md
+          - text: "WUI & CFD"
+            file: content/03-models/wui-cfd/index.md
+          - text: "ML & AI Approaches"
+            file: content/03-models/ml-ai/index.md
+      - text: "Applications"
+        menu:
+          - text: "Public Agencies"
+            file: content/06-agencies/index.md
+          - text: "Utilities"
+            file: content/07-utilities/index.md
+          - text: "Insurance"
+            file: content/08-insurance/index.md
+          - text: "Commercial Sectors"
+            file: content/09-commercial/index.md
+    right:
+      - icon: github
+        href: https://github.com/YOUR_USERNAME/wildfire-resource-directory
+        aria-label: GitHub
+        
+  sidebar:
+    style: "docked"
+    background: light
+    search: true
+    collapse-level: 2
+    contents:
+      - section: "1. Orientation & Navigation"
+        contents:
+          - content/01-orientation/index.md
+          - content/01-orientation/welcome.md
+          - content/01-orientation/quick-reference.md
+          - content/01-orientation/glossary.md
+          
+      - section: "2. Fire Behavior Fundamentals"
+        contents:
+          - content/02-fundamentals/index.md
+          - content/02-fundamentals/fire-triangle.md
+          - content/02-fundamentals/wui-dynamics.md
+          - content/02-fundamentals/scales.md
+          
+      - section: "3. Model Families & Methods"
+        contents:
+          - content/03-models/index.md
+          - section: "Empirical Models"
+            contents:
+              - content/03-models/empirical/index.md
+              - content/03-models/empirical/rothermel.md
+              - content/03-models/empirical/fbfm.md
+          - section: "Landscape Spread"
+            contents:
+              - content/03-models/landscape/index.md
+              - content/03-models/landscape/farsite.md
+              - content/03-models/landscape/burn-probability.md
+              - content/03-models/landscape/iftdss.md
+          - section: "Coupled Atmosphere-Fire"
+            contents:
+              - content/03-models/coupled/index.md
+              - content/03-models/coupled/wrf-fire.md
+          - section: "WUI & CFD"
+            contents:
+              - content/03-models/wui-cfd/index.md
+              - content/03-models/wui-cfd/fds-wfds.md
+          - section: "ML & AI"
+            contents:
+              - content/03-models/ml-ai/index.md
+              - content/03-models/ml-ai/surrogates.md
+              - content/03-models/ml-ai/risk-scores.md
+              
+      - section: "4. Data, Inputs & Optimization"
+        contents:
+          - content/04-data/index.md
+          - content/04-data/input-hierarchy.md
+          - section: "Fuels"
+            contents:
+              - content/04-data/fuels/index.md
+              - content/04-data/fuels/sources.md
+              - content/04-data/fuels/moisture.md
+          - section: "Weather & Climate"
+            contents:
+              - content/04-data/weather/index.md
+              - content/04-data/weather/sources.md
+              - content/04-data/weather/scenarios.md
+          - section: "Topography & WUI"
+            contents:
+              - content/04-data/topography/index.md
+              - content/04-data/topography/dem.md
+              - content/04-data/topography/wui-parcels.md
+          - content/04-data/validation/index.md
+          - content/04-data/realtime/index.md
+          
+      - section: "5. Validation & Uncertainty"
+        contents:
+          - content/05-validation/index.md
+          - content/05-validation/vvuq.md
+          - content/05-validation/comparisons.md
+          
+      - section: "6. Public Agencies"
+        contents:
+          - content/06-agencies/index.md
+          - content/06-agencies/planning.md
+          - content/06-agencies/operations.md
+          - content/06-agencies/recovery.md
+          
+      - section: "7. Utilities & Infrastructure"
+        contents:
+          - content/07-utilities/index.md
+          - section: "Electric Utilities"
+            contents:
+              - content/07-utilities/electric/index.md
+              - content/07-utilities/electric/ignition-risk.md
+              - content/07-utilities/electric/psps.md
+              - content/07-utilities/electric/digital-twins.md
+          - section: "Water Utilities"
+            contents:
+              - content/07-utilities/water/index.md
+              - content/07-utilities/water/impacts.md
+              - content/07-utilities/water/watershed.md
+          - content/07-utilities/coordination.md
+          
+      - section: "8. Insurance & Reinsurance"
+        contents:
+          - content/08-insurance/index.md
+          - content/08-insurance/catastrophe/index.md
+          - content/08-insurance/risk-scoring/index.md
+          - content/08-insurance/mitigation/index.md
+          - content/08-insurance/innovation.md
+          
+      - section: "9. Commercial Sectors"
+        contents:
+          - content/09-commercial/index.md
+          - content/09-commercial/timber.md
+          - content/09-commercial/real-estate.md
+          - content/09-commercial/industrial.md
+          
+      - section: "10. Operational Workflows"
+        contents:
+          - content/10-workflows/index.md
+          - content/10-workflows/pipelines.md
+          - content/10-workflows/data-architecture.md
+          - content/10-workflows/surrogates.md
+          - content/10-workflows/digital-twins.md
+          
+      - section: "11. Governance & Standards"
+        contents:
+          - content/11-governance/index.md
+          - content/11-governance/codes-standards.md
+          - content/11-governance/model-governance.md
+          - content/11-governance/equity.md
+          
+      - section: "12. Resources & Case Studies"
+        contents:
+          - content/12-resources/index.md
+          - content/12-resources/case-studies/co-wy.md
+          - content/12-resources/case-studies/wui.md
+          - content/12-resources/organizations.md
+          - content/12-resources/literature.md
+
+format:
+  html:
+    theme: cosmo
+    css: /styles/custom.css
+    toc: true
+    toc-depth: 3
+    toc-title: "On This Page"
+    number-sections: true
+    number-depth: 2
+    code-fold: false
+    code-tools: false
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    
+bibliography: references.bib
+
+execute:
+  freeze: auto

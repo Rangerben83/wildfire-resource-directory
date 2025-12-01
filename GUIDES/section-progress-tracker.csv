@@ -1,0 +1,47 @@
+Part,Section,Title,Status,Priority,Word Count Target,Assigned To,Start Date,Completion Date,Review Status,Notes
+I,1,Welcome and Purpose,Published,Complete,1500,Benn,11/1/24,11/15/24,Final,Homepage content
+I,2,Quick Reference and Role-Based Guides,Not Started,High,3000,,,,,"Decision trees, role paths"
+I,3,Glossary and Terminology,In Progress,High,5000,Benn,11/30/24,,Draft,"50+ terms, cross-linked"
+II,4,Wildfire Fundamentals and Fire Behavior Triangle,Draft,Critical,4000,,11/30/24,,Ready for Review,"Core concept, foundation"
+II,5,Wildfire Scales and Applications,Not Started,High,3500,,,,,"Landscape, WUI, urban, regional"
+III,6,Empirical and Semi-Empirical Models,Not Started,High,4000,,,,,Rothermel FBFM
+III,7,Landscape Fire Spread and Burn Probability,Not Started,High,4500,,,,,FARSITE MTT IFTDSS
+III,8,Coupled Atmosphere-Fire Models,Not Started,High,4000,,,,,WRF-Fire CAWFE
+III,9,Physics-Based WUI and CFD Models,Not Started,Medium,3500,,,,,FDS WFDS NIST
+III,10,Ember Spotting and Smoke Models,Not Started,Medium,3000,,,,,Transport modules
+III,11,Data-Driven ML and Hybrid Models,Not Started,High,4000,,,,,AI surrogates PINNs
+IV,12,Fire Behavior Triangle Input Hierarchy,Not Started,Medium,3000,,,,,"Priority ranking, optimization"
+IV,13,Fuels Data Sources and Optimization,Not Started,High,4000,,,,,LANDFIRE conditioning
+IV,14,Weather and Climate Inputs,Not Started,High,3500,,,,,RAWS HRRR scenarios
+IV,15,Topography WUI Form and Structural Data,Not Started,Medium,3000,,,,,DEM parcel data
+IV,16,Validation Datasets and Benchmarks,Not Started,Medium,2500,,,,,Historical fires NIST
+IV,17,Real-Time Data Ingestion,Not Started,Medium,3500,,,,,Satellite camera feeds
+IV,18,Data Representation and Compression,Not Started,Low,2500,,,,,Neural representations
+V,19,VVUQ Frameworks and Methodologies,Not Started,Medium,3500,,,,,Verification validation UQ
+V,20,Cross-Model Comparisons,Not Started,Medium,3000,,,,,Intercomparison studies
+VI,21,Planning and Fuels Treatment Workflows,Not Started,High,4000,,,,,IFTDSS treatment planning
+VI,22,Real-Time Operations and Incident Support,Not Started,High,3500,,,,,Forecasting ops
+VI,23,Recovery and Post-Fire Planning,Not Started,Medium,3000,,,,,Watershed rehabilitation
+VII,24,Electric Utilities Planning and Operations,Not Started,Critical,4500,,,,,PSPS ignition risk
+VII,25,Water and Wastewater Utilities,Not Started,High,3500,,,,,Infrastructure impacts
+VII,26,Cross-Utility Coordination,Not Started,Medium,2500,,,,,Multi-hazard cascading
+VIII,27,Wildfire Market and Cat Modeling Overview,Not Started,Critical,4000,,,,,Insurance landscape
+VIII,28,Property-Level Risk Scoring and Underwriting,Not Started,High,3500,,,,,Granular scores
+VIII,29,Portfolio and Capital Management,Not Started,Medium,3000,,,,,Aggregation tail risk
+VIII,30,Mitigation Codes Standards Credits,Not Started,Medium,3500,,,,,WUI codes standards
+VIII,31,Innovative Risk Transfer,Not Started,Low,2500,,,,,Parametric products
+IX,32,Timber Forestry Natural Resources,Not Started,Low,2500,,,,,Forest asset protection
+IX,33,Real Estate Tourism Logistics,Not Started,Low,2000,,,,,Business interruption
+IX,34,Industrial Facilities Supply Chains,Not Started,Low,2000,,,,,Multi-hazard resilience
+X,35,End-to-End Operational Pipelines,Not Started,High,3500,,,,,Architecture workflows
+X,36,Data Pipeline Architecture,Not Started,Medium,3000,,,,,Streaming ingestion
+X,37,Neural Operator Surrogates,Not Started,Medium,3000,,,,,Surrogate acceleration
+X,38,Digital Twin Architectures,Not Started,High,4000,,,,,Twin concepts components
+X,39,Human Factors and Decision Integration,Not Started,Medium,2500,,,,,UX uncertainty viz
+XI,40,Codes Standards and Guidance,Not Started,Medium,3000,,,,,WUI codes post-incident
+XI,41,Model Governance and Responsible Use,Not Started,Medium,2500,,,,,Limits certification
+XI,42,Equity and Societal Considerations,Not Started,Medium,2500,,,,,Exposure equity indigenous
+XII,43,CO-WY Region Case Studies,Not Started,High,4000,,,,,Marshall Cameron Peak
+XII,44,WUI and Disaster Case Studies,Not Started,Medium,3500,,,,,NIST post-fire studies
+XII,45,Utility and Insurance Case Studies,Not Started,Medium,3000,,,,,PSPS programs parametric
+XII,46,Resource Links and External References,Not Started,Medium,2000,,,,,Organizations data training

@@ -112,3 +112,8 @@ pre {
   border-left-color: var(--fire-red);
   background-color: rgba(211, 47, 47, 0.05);
 }
+
+/* Make section numbers match heading color */
+.header-section-number {
+  color: var(--fire-red);
+}
