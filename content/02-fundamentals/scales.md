@@ -258,7 +258,7 @@ Global insurance companies could more accurately assess regional fire risks pose
 
 ## Related Content
 
-- [Fire Behavior Triangle](fire-triangle.qmd) - Fundamental factors across all scales
+- [Fire Behavior Triangle](fire-triangle.md) - Fundamental factors across all scales
 - [WUI and Structure Dynamics](wui-dynamics.qmd) - Detailed WUI fire behavior
 - [Landscape Fire Spread Models](../03-models/landscape/index.qmd) - Wildland fire modeling
 - [Coupled Atmosphere-Fire Models](../03-models/coupled/index.qmd) - Regional fire-atmosphere interaction

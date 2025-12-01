@@ -260,7 +260,7 @@ Proven, scientifically based retrofitting strategies are required for homes loca
 
 ## Related Content
 
-- [Fire Behavior Triangle](fire-triangle.qmd) - Fundamental fire behavior factors
+- [Fire Behavior Triangle](fire-triangle.md) - Fundamental fire behavior factors
 - [Wildfire Scales](scales.qmd) - From parcel to regional fire dynamics
 - [WUI & CFD Models](../03-models/wui-cfd/index.qmd) - Physics-based structure ignition modeling
 - [WUI Codes and Standards](../11-governance/codes-standards.qmd) - Building codes and mitigation requirements

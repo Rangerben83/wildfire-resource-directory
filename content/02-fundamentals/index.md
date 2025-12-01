@@ -8,7 +8,7 @@ Understanding wildfire behavior requires knowledge of fundamental physics, the f
 
 ## Contents
 
-- [Wildfire Fundamentals & the Fire Triangle](fire-triangle.qmd)
+- [Wildfire Fundamentals & the Fire Triangle](fire-triangle.md)
   - Surface and crown fire spread
   - Spotting and ember transport
   - The fire behavior triangle: fuels, weather, topography
