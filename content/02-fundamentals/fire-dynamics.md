@@ -17,8 +17,7 @@ tags:
   - topography
 bibliography: references.bib
 ---
-
-# Wildfire Fundamentals and the Fire Behavior Triangle
+Wildfire Fundamentals and the Fire Behavior Triangle
 
 ::: {.callout-note}
 ## Key Takeaways
