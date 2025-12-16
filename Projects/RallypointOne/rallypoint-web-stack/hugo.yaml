@@ -1,0 +1,38 @@
+baseURL: "http://localhost:1313/"
+languageCode: "en-us"
+title: "Rallypoint One"
+toc: false
+enableRobotsTXT: true
+
+module:
+  imports:
+    - path: github.com/imfing/hextra
+
+menu:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 1
+    - name: Capabilities
+      pageRef: /capabilities
+      weight: 2
+    - name: Partners
+      pageRef: /partners
+      weight: 3
+    - name: Case Studies
+      pageRef: /case-studies
+      weight: 4
+    - name: Resources
+      pageRef: /resources
+      weight: 5
+    - name: Contact
+      pageRef: /contact
+      weight: 6
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  page:
+    width: normal
+    breadcrumbs: false
